@@ -1,30 +1,40 @@
-# user_form_builder
-Form creation by the user 
-#  File structure 
-* ./app
-*  ./components
-*   ./FormField.jsx-form field, help text and error text classes 
-*   ./Step.jsx - includes the number of steps and name of fields inclyuded in each step 
-*   ./StepperForm.jsx-includes the complete form and styling 
-*  ./hooks
-*    ./useFormStore.js-step handling and contains default form data
+# Welcome to Remix!
 
-   
- # Tech Stack used
-*  React Remix and Tailwind CSS
+- 📖 [Remix docs](https://remix.run/docs)
 
+## Development
 
- # Installation required 
-* npm install react-router-dom tailwindcss zustand
-* npm install tailwindcss @tailwindcss/vite
-* npm i react-icons
+Run the dev server:
 
- Command to run application in local -  npm run dev
+```shellscript
+npm run dev
+```
 
+## Deployment
 
+First, build your app for production:
 
+```sh
+npm run build
+```
 
+Then run the app in production mode:
 
- 
+```sh
+npm start
+```
 
- 
+Now you'll need to pick a host to deploy it to.
+
+### DIY
+
+If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+
+Make sure to deploy the output of `npm run build`
+
+- `build/server`
+- `build/client`
+
+## Styling
+
+This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
